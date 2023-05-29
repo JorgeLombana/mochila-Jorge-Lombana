@@ -1,0 +1,47 @@
+Cheatsheet git~github
+
+git init: sirve para inicializar los comandos 
+
+git commit -m "mensaje del commit" -> hacemos el commit 
+commit --amend -m "New commit message." cambiar el ultim commit
+
+git log -> ver historial de comits 
+
+git reset HEAD~1 -> nos devolvemos 1 commit
+
+git restore . -> restaura los valores de los archivos hasta el estado del ultimo commit es como hacer control z
+
+git remote add origin dirección de github -> me vincula el repositorio en github
+
+git push origin main -> pushear enviar hacia la nube
+ origin repositorio remoto la rama main
+ 
+ git pull -> para bajar los cambios que hayan echos mis compa;eros
+ 
+vamos a nuestro repo que creamos voy setting - colaboradores 
+- add people y pongo el username del equipo
+
+
+creamos nuestro proyecto \
+git init 
+crear archivos
+git add. 
+git config user.name nombre
+git config user.email email@gmail.com
+git commit -m 
+
+vinculamos el repo remoto 
+git remote add origin "nombre del repo remoto"
+
+ git push origin main subimos los cambios
+ 
+ 
+ \
+ git clone "nombre del repo remoto"
+ 
+ modifico o creo archivos
+ 
+ git add .
+ git commit -m ägregadndo al repo remoto
+ git  push origin main 
+ git pull origin main  si quiero bajar cambios de nuevo
