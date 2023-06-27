@@ -1,0 +1,4 @@
+138.117.87.209 ip publica
+10.0.2.15  privada
+
+-son diferentes las ip.
